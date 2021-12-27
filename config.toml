@@ -1,0 +1,14 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme="starter"
+
+[menu]
+[[menu.main]]
+  identifier = 'home'
+  name = 'Homepage'
+  url = '/'
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact page'
+  url = '/contact/'

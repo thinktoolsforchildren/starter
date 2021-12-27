@@ -1,0 +1,14 @@
+<head>
+  {{ if .IsHome }}
+    <title>
+      {{ .Site.Title }}
+    </title>
+  {{ else }}  
+    <title>
+      {{ .Page.Title }} | {{ .Site.Title }}
+    </title>
+  {{ end }}
+
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
